@@ -1,0 +1,39 @@
+.key{
+	border: 3px solid #fff;
+	color: #fff;
+	padding: 10px;
+	margin: 12px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	transition: all .07s;
+	text-shadow: 0 0 5px black;
+}
+
+.keys {
+	min-height: 100vh; /* minimum height = screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+
+.audio {
+	font-size: 10px;
+	text-transform: uppercase;
+	display: flex;
+    text-align: center;	
+	 
+}
+html{
+	font-size: 20px;
+	background: url("./background.jpg") bottom center;
+	background-size: cover;
+}
+
+.playing{
+	transform: scale(1:1);
+	border-color: #ffc600;
+	box-shadow: 0 0 10px #ffc600;
+}
